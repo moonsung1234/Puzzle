@@ -13,7 +13,7 @@ class Slice :
                 temp_y = self.piece_width * j
                 
                 piece = self.img[temp_x:temp_x+self.piece_width, temp_y:temp_y+self.piece_height]
-                piece_path = "C:/Users/muns3/OneDrive/Desktop/python-project/puzzle/img/piece{}{}.jpg".format(i + 1, j + 1)
+                piece_path = "img/piece{}{}.jpg".format(i + 1, j + 1)
 
                 return_pieces.append(piece)
                 return_piece_paths.append(piece_path)
