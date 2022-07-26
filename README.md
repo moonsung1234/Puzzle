@@ -24,10 +24,14 @@
 ```python
 # main.py
 
+from puzzle import Puzzle
+
 puzzle_game = Puzzle("image path", "piece count (int)") # piece count -> 4 : eay, 9 : normal, 16 : hard, 25 : so hard
 puzzle_game.show()
 
 ```
+
+<br/>
 
 -----
 
