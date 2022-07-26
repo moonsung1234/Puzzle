@@ -16,3 +16,19 @@
 ![puzzle_capture2](https://user-images.githubusercontent.com/71556009/180827779-eb79a08e-4b55-4cfb-8216-c2de6c996248.PNG)
 
 -----
+
+<br/>
+
+## run
+
+```python
+# main.py
+
+puzzle_game = Puzzle("image path", "piece count (int)") # piece count -> 4 : eay, 9 : normal, 16 : hard, 25 : so hard
+puzzle_game.show()
+
+```
+
+-----
+
+<br/>
